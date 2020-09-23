@@ -1,16 +1,35 @@
 body {
 background-color: pink;
+  background-color: rgb(230, 180, 230);
+  font-family: Papyrus, sans-serif;
+  text-align: left;
 }
 header{
 	border:1px solid black;
-	background-color: pink;
+	background-color: rgb(120, 80, 170);
 }
-main{
-	border:1px dolid black;
-	background-color: pink;
-	margin-top: 0;
-	margin-bottom: 0;
+
+
+main {
+	margin: 0 2% 0 2%;
+	padding: 0 5px 0 5px;
+	background-color: rgb(200, 230, 255);
 }
+
+main h1 {
+	text-align: left;
+        color: rgb(200,200,200);
+	text-shadow: 1px 1px 1px #333;
+        font-size: 2em;
+}
+main h2 {
+	text-align: left;
+        color: white;
+	text-shadow: 1px 1px 1px #333;
+        font-size: 2em;
+}
+
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -20,6 +39,9 @@ background-color: #333;
 }
 nav li {
   float: left;
+  display: inline;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 nav li a {
   display: block;
@@ -31,23 +53,17 @@ nav li a {
 
 nav li a:hover {
   background-color: yellow;
+  color: white;
+  background-color: blue;
+  font-size: 1.5em;
+  transition: 0.7s;
 }
 footer{
 	border:1px dolid black;
-	background-color: purple;
+	background-color: pink;
 }
 img {
 	width: 400px;
-}
-.columns{
-	width: 450px;
-	display: inline-block;
-	border: 1px dolid black;
-}
-.three{
-	width: 300px;
-	display: inline-block;
-	border: 1px dolid black;
 }
 #container {
 	background-color: white;
@@ -56,4 +72,19 @@ img {
 	margin-right: auto;
 	margin-top: 0;
 	margin-bottom:0;
+} 
+
+.button {
+  transition-duration: 0.8s;
+  border: 10px solid green;
+  background-color: pink;
+  border: 3px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;	
+  font-size: 20px;
+  margin: 8px 4px;
+  cursor: pointer;
 }
+
